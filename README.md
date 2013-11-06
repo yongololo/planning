@@ -1,3 +1,9 @@
+Avertissement
+=============
+Cet outil utilisé dans les BU de Bordeaux 3 a été mis en place il y a plusieurs années et pour un usage basique. Il fonctionne correctement dans le contexte qui lui a été imposé : un site, des plages horaires identiques.
+
+Il existe un autre outil de gestion de planning à destination des bibliothèques, disponible sous licence GPL : http://www.planningbiblio.fr/
+
 Installation
 ============
 * Copier les fichiers sur un serveur PHP/Mysql
@@ -35,3 +41,7 @@ Ce logiciel a été développé :
 * Par Sylvain Machefert (université Bordeaux 3) pour les adaptations au contexte de la bibliothèque
 
 L'utilisation de ce logiciel est libre pour un usage non commercial.
+
+Contacts
+========
+Pour toutes questions liées à ce logiciel, n'hésitez pas à [contacter Sylvain Machefert](http://www.sylvainmachefert.com).
