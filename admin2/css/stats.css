@@ -1,0 +1,81 @@
+#global_80pc
+{
+  width:80%;
+  margin:auto;
+}
+
+#selection_stats
+{
+  float:left;
+  width:250px;
+}
+
+.date_semaine
+{
+  font-size:small;
+  color:#333;
+}
+
+#stats
+{
+  float:left;
+  border:1px solid #CCC;
+  margin-left:20px;
+  margin-top:20px;
+  padding:0px 10px;
+}
+
+#titre_page_stats
+{
+  color:#666;
+  font-weight:bold;
+  margin:auto;
+}
+
+.barre_graphique
+{
+  background-color:#FF9900;
+  padding-left:5px;
+  color:#333;
+  font-weight:bold; 
+}
+
+.lien_cache
+{
+  font-size:0.5em;
+  font-weight:normal;
+}
+
+h2
+{
+  border-top:1px solid #CCC;
+}
+
+#selection_stats form
+{
+  border:1px solid #CCC;
+  padding:10px;
+  margin-top:20px;
+}
+
+#selection_stats form label
+{
+  display: block;
+  width: 35%;
+  float: left;
+  padding-right: 10px;
+  text-align: right;
+  letter-spacing: 1px;
+  font-weight:bold;
+  
+}
+
+#zone_note_stat
+{
+  border:1px solid #666;
+  padding:10px;
+  margin:10px;
+  color:red;
+  font-weight:bold;
+  width:700px;
+}

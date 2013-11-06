@@ -1,0 +1,159 @@
+*
+{
+  font-family:sans-serif;
+}
+h1
+{
+  text-align:center;
+}
+
+.semaine_courante
+{
+  background:#CCC;
+}
+
+#planning_annuel
+{
+  width:87%;
+  text-align:center;
+  margin:auto;
+  border-spacing:5px;
+}
+
+#planning_annuel td
+{
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.semaine_exist
+{
+  border:2px solid green;
+}
+
+.semaine_inexist
+{
+  border:1px solid orange;
+}
+
+.semaine_inexist a
+{
+  color:red;
+}
+
+#liste_jours
+{
+  clear:both;
+  margin:auto;
+  width:600px;
+  padding-bottom:30px;
+  text-align:center;
+  font-size:small;
+}
+
+#liste_jours a
+{
+  color:black;
+  font-weight:bold;
+}
+
+#liste_jours a:hover
+{
+  text-decoration:none;
+}
+
+.un_jour
+{
+  float:left;
+  margin-right:10px;
+  text-align:center;
+}
+
+#bandeau_bas
+{
+  margin:auto;
+  width:500px;
+  margin-top:10px;
+  text-align:center;
+}
+
+#bandeau_bas a img
+{
+  border:0px;
+}
+
+h1
+{
+  text-align:center;
+}
+
+.semaine_courante
+{
+  background:#FF9900;
+}
+
+#planning_annuel
+{
+  width:87%;
+  text-align:center;
+  margin:auto;
+  border-spacing:5px;
+}
+
+#planning_annuel td
+{
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+#planning_jour {
+    width:90%;
+    border:1px solid #CCC;
+    margin:1em auto;
+    border-collapse:collapse;
+}
+#planning_jour td {
+    border:1px solid #CCC;
+    padding:.3em 1em;
+    text-align:center;
+}
+#planning_jour tr.odd td {
+    background:#f7fbff
+}
+#planning_jour tr.odd .column1 {
+    background:#f4f9fe;
+}
+#planning_jour .column1 {
+    background:#f9fcfe;
+}
+
+#planning_jour thead th, #planning_jour th {
+    border:1px solid #CCC;
+    background:#f4f9fe;
+    text-align:center;
+    font:bold 1.2em/2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+    color:#66a3d3;
+}
+#planning_jour tfoot th {
+    background:#f4f9fe;
+    text-align:center;
+}
+#planning_jour tfoot th strong {
+    font:bold 1.2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+    margin:.5em .5em .5em 0;
+    color:#66a3d3;
+}
+
+/* Stylisé les prix */
+#planning_jour tfoot th em {
+    color:#f03b58;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-style: normal;
+}
+
+#planning_jour ul
+{
+  list-style:none;
+  padding:0px;
+}

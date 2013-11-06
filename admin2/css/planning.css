@@ -1,0 +1,121 @@
+h1
+{
+  text-align:center;
+}
+
+.semaine_courante
+{
+  background:#FF9900;
+}
+
+#planning_annuel
+{
+  width:87%;
+  text-align:center;
+  margin:auto;
+  border-spacing:5px;
+}
+
+#planning_annuel td
+{
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+
+#planning_jour {
+    width:90%;
+    border-top:1px solid #e5eff8;
+    border-right:1px solid #e5eff8;
+    margin:1em auto;
+    border-collapse:collapse;
+}
+#planning_jour td {
+    color:#678197;
+    border-bottom:1px solid #e5eff8;
+    border-left:1px solid #e5eff8;
+    padding:.3em 1em;
+    text-align:center;
+}
+
+#planning_jour tr.odd td {
+    background:#f7fbff
+}
+
+#planning_jour tr.odd .column1 {
+    background:#f4f9fe;
+}
+
+#planning_jour .column1 {
+    background:#f9fcfe;
+}
+
+#planning_jour th
+{
+      background:#f4f9fe;
+    text-align:center;
+    font:bold 1.2em/2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+    color:#66a3d3;
+}
+
+#planning_jour ul
+{
+  color:#678197;
+  list-style:none;
+  padding:0px;
+}
+
+#planning_jour ul li
+{
+  color:#678197;
+}
+
+
+#planning_jour img
+{
+  padding:3px;
+  width:16px;
+  height:16px;
+}
+
+#planning_jour a img
+{
+  border:0px;
+}
+
+.semaine_exist
+{
+  border:2px solid green;
+}
+
+.semaine_inexist
+{
+  border:1px solid orange;
+}
+
+.semaine_inexist a
+{
+  color:red;
+}
+
+#liste_jours
+{
+  text-align:center;
+}
+
+
+#liste_jours
+{
+  clear:both;
+  margin:auto;
+  width:500px;
+  padding-bottom:30px;
+  text-align:center;
+}
+
+.un_jour
+{
+  float:left;
+  margin-right:10px;
+  text-align:center;
+}

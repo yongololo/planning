@@ -1,0 +1,124 @@
+body
+{
+  font-family: sans-serif;
+}
+
+.erreur
+{
+  font-weight:bold;
+  color:red;
+}
+
+#global
+{
+  width:720px;
+  margin:auto;
+}
+
+#menu
+{
+margin: 0px;
+padding: 0px;
+clear:both;
+}
+
+#menu ul, #menu li
+{
+  display:block;
+float:left;
+}
+
+#menu ul
+{
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+padding-right:50px;
+margin-right:10px;
+border-right:2px solid #FF9900;
+}
+
+#menu ul li a
+{
+  text-decoration: none;
+  text-align:center;
+  width: 100%;
+  margin-bottom:10px;
+  background-position:center 0px;
+  font-weight:bold;
+  color:#666;
+  width:100px;
+  padding-top:100px;
+  display:block;
+}
+
+#menu ul li a:hover
+{
+  color:#FF9900;
+}
+
+#vacances
+{
+  background:url("../img/vacances.png") no-repeat;
+}
+
+#personnes
+{
+  background:url("../img/personnes.png") no-repeat;
+}
+
+#stat
+{
+  background:url("../img/stat.png") no-repeat;
+}
+
+#calendrier
+{
+  background:url("../img/calendrier.png") no-repeat;
+}
+
+#exit
+{
+  background:url("../img/exit.png") no-repeat;
+}
+
+
+#vacances:hover, #vacances.lien_courant
+{
+  background:url("../img/vacances_actif.png") no-repeat;
+  background-position:center 0px;
+}
+
+#personnes:hover, #personnes.lien_courant
+{
+  background:url("../img/personnes_actif.png") no-repeat;
+  background-position:center 0px;
+}
+
+#stat:hover, #stat.lien_courant
+{
+  background:url("../img/stat_actif.png") no-repeat;
+  background-position:center 0px;
+}
+
+#calendrier:hover, #calendrier.lien_courant
+{
+  background:url("../img/calendrier_actif.png") no-repeat;
+  background-position:center 0px;
+}
+
+#exit:hover, #exit.lien_courant
+{
+  background:url("../img/exit_actif.png") no-repeat;
+  background-position:center 0px;
+}
+
+#exit
+{
+  font-size:0.8em;
+}
+
+h1 .small
+{
+  font-size:0.4em;
+}

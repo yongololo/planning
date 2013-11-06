@@ -1,0 +1,51 @@
+## Mise en production ##
+14/01/2013
+- Typo sur précédende
+
+11/09/2012
+- Limitation des personnels disponibles dans la gestion des plannings type aux personnes encore signalées comme active dans la BDD
+
+04/07/2012
+- Ajout de la possibilité de gérer des semaines en horaire d'été.
+- Création d'une table "semaines_ete" qui permet de lister les semaines correspondant à des semaines types pour l'été (num_semaine / annee)
+- Dans la table jours_horaires, ajout d'une colonne id_horaire_ete pour répartir les id_horaire selon deux semaines type
+
+19/01/2012
+- Tri des congés en admin par ordre décroissant de date (demande M. Didier)
+- Tri des congés sur visu_conges.php par nom de personne
+
+29/09/2011
+- Ajout de l'affichage des congés sur la consultation publique
+
+10/01/2011
+- Mise à jour sur le statistiques, plus possibilité d'export en PDF
+
+17/12/2010
+- Correction sur la vue publique d'un bug concernant le rebond d'une semaine sur l'autre en fin d'année
+
+03/11/2010
+- Déplacement du lien vers les congés pour plus de lisibilité (en admin)
+
+20/10/2010
+- Surlignage de la ligne en cours de visualisation via jquery sur l'interface publique
+
+14/10/2010
+- Ajout d'une limitation pour que seules les personnes en position 0 du planning soient prises en compte dans les stats
+
+08/10/2010
+- Correction dans l'application des semaines types
+- mise en place d'un module de supersposition des semaines types (supp_planning.php)
+
+17/09/2010
+- Remplace de "Congés" par "Absences"
+- Extension des horaires jusqu'à 20h00 pour la gestion des congés ponctuels
+- Correction pour l'enregistrement de la note des stats (gestion apostrophes)
+- Ajout des jours de début et de fin des semaines dans les statistiques
+
+15/09/2010
+- Ajout d'une gestion des semaines type
+- Gestion des attributions des personnels par rapport à des groupes et non plus par rapport à des sections
+- Création d'une note sur la page des statistiques
+
+07/2010 :
+- Première version de l'application adaptée à Bordeaux 3

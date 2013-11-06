@@ -1,0 +1,169 @@
+#liste_perso
+{
+  float:left;
+}
+
+a img
+{
+  border:0px;
+}
+
+.infos_caches
+{
+  visibility:hidden;
+  display: block;
+  height: 0;
+  font-size:0;
+}
+
+h3
+{
+  margin:0;
+}
+
+.slider
+{
+  margin:10px;
+}
+
+#modif_perso
+{
+  visibility:hidden;
+  padding-left:265px;
+}
+
+.monForm p
+{
+  margin: 5px 0;
+}
+    
+/* fieldset , legend */
+.monForm fieldset
+{
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding: 10px;
+/*  border: #F90 1px solid; */
+  border: #CCC 1px solid;
+  text-align:left;
+}
+    
+.monForm fieldset legend
+{
+  padding: 0 10px;
+  border-left: #CCC 1px solid;
+  border-right: #CCC 1px solid;
+  font-size: 1.2em;
+  font-weight:bold;
+}
+
+/* Label */
+.monForm label
+{
+  display: block;
+  width: 35%;
+  float: left;
+  padding-right: 1%;
+  text-align: right;
+  letter-spacing: 1px;
+  font-weight:bold;
+}
+
+.monForm input, .monForm select
+{
+  width: 60%;
+  border: #CCC 1px solid;
+}
+    
+.monForm input:hover, .monForm select:hover, .monForm input:focus, .monForm select:focus
+{
+  border: #000 1px solid;
+}
+
+/* button submit */
+.monForm input[type="submit"]
+{
+  border: #DDEEFF 1px solid;
+  text-align:center;
+}
+    
+.monForm input[type="submit"]:hover
+{
+  border: #DDEEFF 1px solid;
+  text-align:center;
+  background-color:#BBB;
+}
+
+.monForm input[type="checkbox"]
+{
+  width:20px;
+  border:0px;
+}
+
+#liste_sections
+{
+  padding-left:40%;
+}
+
+#liste_groupes
+{
+  padding-left:40%;
+}
+
+#post_message
+{
+  font-weight:bold;
+  color:green;
+  padding-left:270px;
+}
+
+.liste_conges, .liste_conges tr, .liste_conges th, .liste_conges td
+{
+  border:1px solid black;
+  padding:0px;
+  border-spacing:0px;
+}
+
+.liste_conges th
+{
+  padding-left:10px;
+  padding-right:10px;
+}
+.liste_conges td
+{
+  padding:10px;
+}
+
+#gest_conges_perm
+{
+  float:right;
+  visibility:hidden;
+}
+
+#gest_conges
+{
+  float:right;
+  visibility:hidden;
+  width:350px;
+}
+
+#tab_conges_perm
+{
+  float:left;
+}
+
+#form_conges_perm
+{
+  width:350px;
+  margin-left:30px;
+}
+
+.monForm .small
+{
+  width: 100px;
+  border: #CCC 1px solid;
+}
+
+div.ui-datepicker{
+ font-size:12px;
+}
