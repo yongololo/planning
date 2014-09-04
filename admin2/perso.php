@@ -386,18 +386,28 @@
         }
       }
       ?>
-      
-			function slideTime(event, ui)
-      {
-				var minutes0 = parseInt($(this).slider("values", 0) % 60);
-				var hours0 = parseInt($(this).slider("values", 0) / 60 % 24);
-				var minutes1 = parseInt($(this).slider("values", 1) % 60);
-				var hours1 = parseInt($(this).slider("values", 1) / 60 % 24);
-        
-				$("#debut-" + $(this).attr("id")).text(getTime(hours0, minutes0));
-        $("#fin-" + $(this).attr("id")).text(getTime(hours1, minutes1));
-        $("#hidden-debut-" + $(this).attr("id")).attr('value', getTime(hours0, minutes0));
-        $("#hidden-fin-" + $(this).attr("id")).attr('value', getTime(hours1, minutes1));
+
+			function slideTime(e, ui) {
+				var hours1 = Math.floor(ui.values[0] / 60);
+				var minutes1 = ui.values[0] - (hours1 * 60);
+
+				if (hours1.length == 1) hours1 = '0' + hours1;
+				if (minutes1.length == 1) minutes1 = '0' + minutes1;
+				if (minutes1 == 0) minutes1 = '00';
+
+				var hours2 = Math.floor(ui.values[1] / 60);
+				var minutes2 = ui.values[1] - (hours2 * 60);
+
+				if (hours2.length == 1) hours2 = '0' + hours2;
+				if (minutes2.length == 1) minutes2 = '0' + minutes2;
+				if (minutes2 == 0) minutes2 = '00';
+
+				$("#debut-" + $(this).attr("id")).text(getTime(hours1, minutes1));
+				$("#fin-" + $(this).attr("id")).text(getTime(hours2, minutes2));
+				$("#hidden-debut-" + $(this).attr("id")).attr('value', getTime(hours1, minutes1));
+				$("#hidden-fin-" + $(this).attr("id")).attr('value', getTime(hours2, minutes2));
+
+
 			}
       
 			function getTime(hours, minutes) {
